@@ -29,49 +29,60 @@ class PredictController {
   }
 
   predict(req, res) {
-    const { edad, horasSueno, frecCardiaca, intensidad, historialLesiones } =
-      req.body;
+    const { age, sleepHours, heartRate, intensity, injuryHistory } = req.body;
 
     if (
-      edad == null ||
-      horasSueno == null ||
-      frecCardiaca == null ||
-      intensidad == null ||
-      historialLesiones == null
+      age == null ||
+      sleepHours == null ||
+      heartRate == null ||
+      intensity == null ||
+      injuryHistory == null
     ) {
       return res.status(400).json({
         success: false,
         error:
-          "Todos los campos son requeridos: edad, horasSueno, frecCardiaca, intensidad, historialLesiones",
+          "All fields are required: age, sleepHours, heartRate, intensity, injuryHistory",
       });
     }
 
     if (!this.riskModel.isTrained()) {
-      return res.status(500).json({ success: false, error: "Modelo no entrenado" });
+      return res
+        .status(500)
+        .json({ success: false, error: "Model not trained" });
     }
 
     try {
       const input = [
-        Number(edad),
-        Number(horasSueno),
-        Number(frecCardiaca),
-        Number(intensidad),
-        Number(historialLesiones),
+        Number(age),
+        Number(sleepHours),
+        Number(heartRate),
+        Number(intensity),
+        Number(injuryHistory),
       ];
 
       const result = this.riskModel.predict([input]);
-      const puntaje = Math.round(result.predictions[0] * 10) / 10;
+      const score = Math.round(result.predictions[0] * 10) / 10;
+      const modelInfo = this.riskModel.getModelInfo();
 
       res.json({
         success: true,
-        input: { edad, horasSueno, frecCardiaca, intensidad, historialLesiones },
-        riesgo: {
-          puntaje,
+        input: { age, sleepHours, heartRate, intensity, injuryHistory },
+        risk: {
+          score,
           min: 0,
           max: 100,
-          categoria: getCategory(puntaje),
+          category: getCategory(score),
         },
-        modelo: this.riskModel.getModelInfo(),
+        model: {
+          ...modelInfo,
+          features: [
+            "age",
+            "sleepHours",
+            "heartRate",
+            "intensity",
+            "injuryHistory",
+          ],
+        },
       });
     } catch (err) {
       res.status(500).json({ success: false, error: err.message });
