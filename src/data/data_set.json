@@ -1,0 +1,482 @@
+[
+  {
+    "edad": 32,
+    "horasSueno": 6,
+    "frecCardiaca": 77,
+    "intensidad": 6,
+    "historialLesiones": 1,
+    "riesgo": 38
+  },
+  {
+    "edad": 54,
+    "horasSueno": 8,
+    "frecCardiaca": 70,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 32
+  },
+  {
+    "edad": 39,
+    "horasSueno": 7,
+    "frecCardiaca": 74,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 22
+  },
+  {
+    "edad": 32,
+    "horasSueno": 6,
+    "frecCardiaca": 71,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 15
+  },
+  {
+    "edad": 41,
+    "horasSueno": 4,
+    "frecCardiaca": 75,
+    "intensidad": 9,
+    "historialLesiones": 1,
+    "riesgo": 89
+  },
+  {
+    "edad": 26,
+    "horasSueno": 3,
+    "frecCardiaca": 83,
+    "intensidad": 8,
+    "historialLesiones": 1,
+    "riesgo": 69
+  },
+  {
+    "edad": 24,
+    "horasSueno": 4,
+    "frecCardiaca": 62,
+    "intensidad": 7,
+    "historialLesiones": 0,
+    "riesgo": 18
+  },
+  {
+    "edad": 30,
+    "horasSueno": 7,
+    "frecCardiaca": 70,
+    "intensidad": 7,
+    "historialLesiones": 1,
+    "riesgo": 17
+  },
+  {
+    "edad": 24,
+    "horasSueno": 7,
+    "frecCardiaca": 60,
+    "intensidad": 3,
+    "historialLesiones": 0,
+    "riesgo": 0
+  },
+  {
+    "edad": 31,
+    "horasSueno": 8,
+    "frecCardiaca": 63,
+    "intensidad": 2,
+    "historialLesiones": 0,
+    "riesgo": 7
+  },
+  {
+    "edad": 30,
+    "horasSueno": 7,
+    "frecCardiaca": 94,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 36
+  },
+  {
+    "edad": 42,
+    "horasSueno": 5,
+    "frecCardiaca": 94,
+    "intensidad": 7,
+    "historialLesiones": 1,
+    "riesgo": 94
+  },
+  {
+    "edad": 29,
+    "horasSueno": 4,
+    "frecCardiaca": 65,
+    "intensidad": 7,
+    "historialLesiones": 0,
+    "riesgo": 21
+  },
+  {
+    "edad": 43,
+    "horasSueno": 4,
+    "frecCardiaca": 78,
+    "intensidad": 9,
+    "historialLesiones": 0,
+    "riesgo": 61
+  },
+  {
+    "edad": 20,
+    "horasSueno": 5,
+    "frecCardiaca": 85,
+    "intensidad": 8,
+    "historialLesiones": 0,
+    "riesgo": 44
+  },
+  {
+    "edad": 23,
+    "horasSueno": 4,
+    "frecCardiaca": 69,
+    "intensidad": 7,
+    "historialLesiones": 0,
+    "riesgo": 24
+  },
+  {
+    "edad": 53,
+    "horasSueno": 8,
+    "frecCardiaca": 56,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 36
+  },
+  {
+    "edad": 45,
+    "horasSueno": 4,
+    "frecCardiaca": 83,
+    "intensidad": 7,
+    "historialLesiones": 1,
+    "riesgo": 87
+  },
+  {
+    "edad": 38,
+    "horasSueno": 5,
+    "frecCardiaca": 66,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 28
+  },
+  {
+    "edad": 23,
+    "horasSueno": 5,
+    "frecCardiaca": 79,
+    "intensidad": 6,
+    "historialLesiones": 0,
+    "riesgo": 24
+  },
+  {
+    "edad": 51,
+    "horasSueno": 6,
+    "frecCardiaca": 92,
+    "intensidad": 8,
+    "historialLesiones": 0,
+    "riesgo": 75
+  },
+  {
+    "edad": 55,
+    "horasSueno": 8,
+    "frecCardiaca": 74,
+    "intensidad": 3,
+    "historialLesiones": 0,
+    "riesgo": 43
+  },
+  {
+    "edad": 45,
+    "horasSueno": 7,
+    "frecCardiaca": 91,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 53
+  },
+  {
+    "edad": 18,
+    "horasSueno": 5,
+    "frecCardiaca": 68,
+    "intensidad": 7,
+    "historialLesiones": 0,
+    "riesgo": 24
+  },
+  {
+    "edad": 37,
+    "horasSueno": 4,
+    "frecCardiaca": 69,
+    "intensidad": 10,
+    "historialLesiones": 0,
+    "riesgo": 44
+  },
+  {
+    "edad": 39,
+    "horasSueno": 7,
+    "frecCardiaca": 60,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 18
+  },
+  {
+    "edad": 30,
+    "horasSueno": 5,
+    "frecCardiaca": 76,
+    "intensidad": 8,
+    "historialLesiones": 1,
+    "riesgo": 63
+  },
+  {
+    "edad": 28,
+    "horasSueno": 7,
+    "frecCardiaca": 68,
+    "intensidad": 3,
+    "historialLesiones": 0,
+    "riesgo": 0
+  },
+  {
+    "edad": 27,
+    "horasSueno": 6,
+    "frecCardiaca": 91,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 36
+  },
+  {
+    "edad": 32,
+    "horasSueno": 9,
+    "frecCardiaca": 61,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 6
+  },
+  {
+    "edad": 48,
+    "horasSueno": 5,
+    "frecCardiaca": 89,
+    "intensidad": 9,
+    "historialLesiones": 1,
+    "riesgo": 94
+  },
+  {
+    "edad": 24,
+    "horasSueno": 5,
+    "frecCardiaca": 95,
+    "intensidad": 10,
+    "historialLesiones": 1,
+    "riesgo": 74
+  },
+  {
+    "edad": 34,
+    "horasSueno": 5,
+    "frecCardiaca": 47,
+    "intensidad": 9,
+    "historialLesiones": 1,
+    "riesgo": 82
+  },
+  {
+    "edad": 35,
+    "horasSueno": 6,
+    "frecCardiaca": 90,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 32
+  },
+  {
+    "edad": 39,
+    "horasSueno": 6,
+    "frecCardiaca": 64,
+    "intensidad": 8,
+    "historialLesiones": 0,
+    "riesgo": 27
+  },
+  {
+    "edad": 25,
+    "horasSueno": 8,
+    "frecCardiaca": 58,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 0
+  },
+  {
+    "edad": 38,
+    "horasSueno": 4,
+    "frecCardiaca": 86,
+    "intensidad": 10,
+    "historialLesiones": 1,
+    "riesgo": 88
+  },
+  {
+    "edad": 42,
+    "horasSueno": 5,
+    "frecCardiaca": 72,
+    "intensidad": 9,
+    "historialLesiones": 0,
+    "riesgo": 50
+  },
+  {
+    "edad": 48,
+    "horasSueno": 6,
+    "frecCardiaca": 99,
+    "intensidad": 10,
+    "historialLesiones": 1,
+    "riesgo": 99
+  },
+  {
+    "edad": 29,
+    "horasSueno": 6,
+    "frecCardiaca": 71,
+    "intensidad": 8,
+    "historialLesiones": 1,
+    "riesgo": 34
+  },
+  {
+    "edad": 19,
+    "horasSueno": 9,
+    "frecCardiaca": 60,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 12
+  },
+  {
+    "edad": 34,
+    "horasSueno": 4,
+    "frecCardiaca": 87,
+    "intensidad": 9,
+    "historialLesiones": 0,
+    "riesgo": 49
+  },
+  {
+    "edad": 32,
+    "horasSueno": 3,
+    "frecCardiaca": 79,
+    "intensidad": 10,
+    "historialLesiones": 1,
+    "riesgo": 69
+  },
+  {
+    "edad": 31,
+    "horasSueno": 7,
+    "frecCardiaca": 52,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 12
+  },
+  {
+    "edad": 32,
+    "horasSueno": 7,
+    "frecCardiaca": 67,
+    "intensidad": 3,
+    "historialLesiones": 0,
+    "riesgo": 5
+  },
+  {
+    "edad": 34,
+    "horasSueno": 8,
+    "frecCardiaca": 74,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 14
+  },
+  {
+    "edad": 18,
+    "horasSueno": 8,
+    "frecCardiaca": 58,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 12
+  },
+  {
+    "edad": 41,
+    "horasSueno": 6,
+    "frecCardiaca": 70,
+    "intensidad": 5,
+    "historialLesiones": 1,
+    "riesgo": 49
+  },
+  {
+    "edad": 21,
+    "horasSueno": 8,
+    "frecCardiaca": 94,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 28
+  },
+  {
+    "edad": 38,
+    "horasSueno": 6,
+    "frecCardiaca": 99,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 45
+  },
+  {
+    "edad": 18,
+    "horasSueno": 7,
+    "frecCardiaca": 61,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 8
+  },
+  {
+    "edad": 48,
+    "horasSueno": 4,
+    "frecCardiaca": 72,
+    "intensidad": 9,
+    "historialLesiones": 0,
+    "riesgo": 54
+  },
+  {
+    "edad": 37,
+    "horasSueno": 4,
+    "frecCardiaca": 88,
+    "intensidad": 9,
+    "historialLesiones": 0,
+    "riesgo": 61
+  },
+  {
+    "edad": 31,
+    "horasSueno": 9,
+    "frecCardiaca": 52,
+    "intensidad": 5,
+    "historialLesiones": 0,
+    "riesgo": 14
+  },
+  {
+    "edad": 49,
+    "horasSueno": 5,
+    "frecCardiaca": 67,
+    "intensidad": 4,
+    "historialLesiones": 0,
+    "riesgo": 37
+  },
+  {
+    "edad": 33,
+    "horasSueno": 5,
+    "frecCardiaca": 82,
+    "intensidad": 9,
+    "historialLesiones": 1,
+    "riesgo": 74
+  },
+  {
+    "edad": 49,
+    "horasSueno": 4,
+    "frecCardiaca": 78,
+    "intensidad": 9,
+    "historialLesiones": 1,
+    "riesgo": 85
+  },
+  {
+    "edad": 20,
+    "horasSueno": 5,
+    "frecCardiaca": 77,
+    "intensidad": 8,
+    "historialLesiones": 0,
+    "riesgo": 32
+  },
+  {
+    "edad": 22,
+    "horasSueno": 8,
+    "frecCardiaca": 50,
+    "intensidad": 2,
+    "historialLesiones": 0,
+    "riesgo": 13
+  },
+  {
+    "edad": 23,
+    "horasSueno": 3,
+    "frecCardiaca": 83,
+    "intensidad": 9,
+    "historialLesiones": 1,
+    "riesgo": 73
+  }
+]
