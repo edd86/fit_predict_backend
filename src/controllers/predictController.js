@@ -22,7 +22,7 @@ class PredictController {
     res.json({
       success: true,
       message: "Fit Predict API running",
-      port: 3005,
+      port: process.env.PORT || 3005,
       modelTrained: this.riskModel.isTrained(),
       modelInfo,
     });
