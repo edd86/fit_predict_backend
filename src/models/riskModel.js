@@ -3,7 +3,13 @@ const fs = require("fs");
 const path = require("path");
 
 const datasetPath = path.join(__dirname, "..", "data", "data_set.json");
-const FEATURE_NAMES = ["edad", "horasSueno", "frecCardiaca", "intensidad", "historialLesiones"];
+const FEATURE_NAMES = [
+  "edad",
+  "horasSueno",
+  "frecCardiaca",
+  "intensidad",
+  "historialLesiones",
+];
 
 class RiskModel {
   constructor() {
@@ -16,6 +22,7 @@ class RiskModel {
     return JSON.parse(raw);
   }
 
+  //Entrenamiento
   train() {
     const data = this.loadDataset();
     const features = data.map((d) => [
